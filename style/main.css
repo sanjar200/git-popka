@@ -1,0 +1,443 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.wrapper{
+    font-family: 'Work+Sans' sans-serif;
+}
+
+.container{ 
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.section{
+    margin-bottom: 50px;
+}
+
+.section__title{
+    position: relative;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 30px;
+}
+
+.section__title h1{
+    font-family: 'Work Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #505050;
+}
+
+.section__title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #AB0433;
+}
+
+
+.header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/gitoru.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu-left{
+    display: flex;
+    align-items: center;
+    
+}
+.header__logo{
+    margin-right: 24px;
+}
+
+.header__logo:hover{
+    background-color: #AB0433;
+    border-radius: 20px;
+}
+
+.header__link{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FCFCFC;
+    padding: 16px;
+    transition: all 0.3s ease;
+}
+
+.header__link:not(:last-child){
+    margin-right: 24px;
+}
+
+.header__link:hover{
+    color: #AB0433;
+}
+
+.header__btn{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.header__mobile-btn{
+    display: none;
+    border: 1px solid transparent;
+}
+
+.header__btn:hover{
+    border-color: #AB0433;
+}
+
+
+.header__btn path{
+    transition: all 0.3s ease;
+
+}
+
+.header__btn:hover path{
+    fill: #AB0433;
+}
+
+.header__title{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.header__main{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header__content{
+    width: 45%;
+}
+
+
+
+.lessons{
+    transform: translateY(-50%);
+}
+
+.lessons__bg{
+    width: 100%;
+    padding: 50px 0;
+    background: linear-gradient(rgba(171, 4, 51, 0.7), rgba(171, 4, 51, 0.7)), url(../image/gitara2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-blend-mode: normal;
+}
+
+.lessons__content{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+
+.lessons__title{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+}
+
+.lessons__desc{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 149%;
+    margin-bottom: 16px;
+}
+
+.lessons__btn{
+    background-color: #FF753A;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.lessons__btn:hover{
+    border-color: #FF753A;
+    background-color: transparent;
+}
+
+
+.products__row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product__card{
+    width: 32%;
+}
+.active{
+    width: 47%;
+    margin-bottom: 20px;
+   
+}
+.active img{
+    width: 100%;
+}
+
+.product__img{
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.active2{
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #fff 100%);
+   
+}
+.active1{
+    background-color: #c4bfbf;
+}
+
+.product__img img{
+    width: 100%;
+}
+
+.product__content{
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: -1px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 16px 24px 24px 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__content-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #252525;
+}
+
+.product__content-body{
+    flex: 1 1 auto;
+    margin-bottom: 26px;
+}
+
+.product__desc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #767676;
+}
+
+.product__attribute{
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+    padding: 2px 6px;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 auto;
+    padding: 50px 0;
+    background-color: #767676;
+}
+.footer-left{
+    display: flex;
+    width: 50%;
+    color: #fff;
+}
+.footer-right{
+    margin-right: 20px;
+}
+
+
+.footer-left-left{
+    width: 50%;
+    margin-left: 20px;
+}
+.footer-left-right{
+    width: 50%;
+}
+.footer-right-icon{
+    display: flex;
+    justify-content: end;
+    
+}
+.footer-right-icon img,svg{
+    padding-left: 10px;
+}
+.left-border{
+    width: 50px;
+    height: 2px;
+    border-bottom: 2px solid ;
+}
+.footer-bottom{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    padding:20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header__nav,
+    .header__btns{
+        display: none;
+        transition: all .3 ease;
+    }
+
+    .header__mobile-btn{
+        display: block;
+    }
+
+    .header__mobile-btn:hover{
+      border-color: #AB0433;
+      border-radius: 8px;
+    }
+    
+
+    .header__content{
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .product__card{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .footer-main{
+        background-color: #AB0433;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__title{
+        font-size: 32px;
+    }
+
+    .lessons__title{
+        font-size: 21px;
+    }
+
+    .lessons__desc{
+        font-size: 12px;
+    }
+    .actives{
+        display: none;
+    }
+    .footer-main{
+        background-color: #0083838f;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .product__card{
+        width: 100%;
+    }
+    .footer-main{
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-left-right{
+        display: none;
+    }
+    .footer-right-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-main{
+        background-color: #FBC02D;
+    }
+    .footer-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .footer-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="wrapper">
+    <!-- HEADER-START -->
+    <header class="header">
+        <div class="header__menu">
+            <div class="container">
+                    <div class="header__row">
+                        <div class="header__menu-left">
+                            <a href="#" class="header__logo">
+                                <img src="./image/Desktop.svg" alt="logo">
+                            </a>
+
+                            <nav class="header__nav">
+                                <a href="#" class="header__link">Guitars</a>
+                                <a href="#" class="header__link">Accessories</a>
+                                <a href="#" class="header__link">Storage</a>
+                                <a href="#" class="header__link">Lessons</a>
+                                <a href="#" class="header__link">Repairs</a>
+                            </nav>
+                        </div>
+
+                        <div class="header__menu-right">
+                            <div class="header__btns">
+                                <button class="btn header__btn">
+                                    <span class="btn_icon">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M30.765 24.7803H13.9908C13.673 24.7803 13.3683 24.654 13.1436 24.4292C12.9189 24.2044 12.7926 23.8996 12.7926 23.5817C12.7926 23.2638 12.9189 22.9589 13.1436 22.7341C13.3683 22.5094 13.673 22.3831 13.9908 22.3831H26.4996C27.3007 22.3831 28.0789 22.1154 28.7106 21.6225C29.3423 21.1296 29.7913 20.4396 29.9862 19.6623L31.9632 11.8834C32.0081 11.7065 32.012 11.5217 31.9746 11.3431C31.9372 11.1644 31.8595 10.9967 31.7475 10.8526C31.631 10.7049 31.4813 10.5867 31.3106 10.5075C31.14 10.4284 30.953 10.3906 30.765 10.3972H13.7032C13.456 9.69774 12.9986 9.09191 12.3937 8.66275C11.7888 8.23358 11.066 8.00208 10.3244 8H9.19816C8.88039 8 8.57563 8.12628 8.35093 8.35106C8.12623 8.57584 8 8.8807 8 9.19859C8 9.51648 8.12623 9.82134 8.35093 10.0461C8.57563 10.2709 8.88039 10.3972 9.19816 10.3972H10.3244C10.5981 10.3892 10.8663 10.4752 11.0843 10.641C11.3023 10.8067 11.457 11.0422 11.5226 11.3081L11.5945 11.8834L13.6673 19.9859C12.714 20.0288 11.8168 20.4488 11.173 21.1535C10.5292 21.8582 10.1917 22.7898 10.2346 23.7435C10.2775 24.6971 10.6973 25.5947 11.4017 26.2387C12.1062 26.8827 13.0375 27.2204 13.9908 27.1774H14.2065C14.0094 27.7206 13.9461 28.3032 14.0219 28.876C14.0976 29.4488 14.3103 29.9949 14.6418 30.468C14.9733 30.9411 15.4139 31.3274 15.9262 31.5941C16.4386 31.8608 17.0077 32 17.5853 32C18.1629 32 18.7319 31.8608 19.2443 31.5941C19.7567 31.3274 20.1973 30.9411 20.5288 30.468C20.8603 29.9949 21.0729 29.4488 21.1487 28.876C21.2245 28.3032 21.1611 27.7206 20.9641 27.1774H23.7917C23.5947 27.7206 23.5314 28.3032 23.6071 28.876C23.6829 29.4488 23.8956 29.9949 24.2271 30.468C24.5586 30.9411 24.9991 31.3274 25.5115 31.5941C26.0239 31.8608 26.593 32 27.1706 32C27.7481 32 28.3172 31.8608 28.8296 31.5941C29.342 31.3274 29.7826 30.9411 30.114 30.468C30.4455 29.9949 30.6582 29.4488 30.734 28.876C30.8097 28.3032 30.7464 27.7206 30.5494 27.1774H30.765C31.0828 27.1774 31.3876 27.0512 31.6123 26.8264C31.837 26.6016 31.9632 26.2967 31.9632 25.9789C31.9632 25.661 31.837 25.3561 31.6123 25.1313C31.3876 24.9065 31.0828 24.7803 30.765 24.7803ZM29.2314 12.7944L27.6618 19.075C27.5962 19.3409 27.4415 19.5764 27.2235 19.7421C27.0055 19.9078 26.7373 19.9939 26.4636 19.9859H16.1235L14.3263 12.7944H29.2314ZM17.5853 29.5746C17.3483 29.5746 17.1167 29.5043 16.9196 29.3726C16.7226 29.2409 16.569 29.0537 16.4783 28.8347C16.3876 28.6157 16.3639 28.3747 16.4101 28.1422C16.4564 27.9097 16.5705 27.6961 16.7381 27.5285C16.9056 27.3609 17.1191 27.2467 17.3515 27.2005C17.5839 27.1542 17.8249 27.178 18.0438 27.2687C18.2627 27.3594 18.4499 27.513 18.5815 27.7101C18.7132 27.9072 18.7834 28.139 18.7834 28.376C18.7834 28.6939 18.6572
+                                             ., [25.03.2022 18:54]
+                                              28.9988 18.4325 29.2236C18.2078 29.4483 17.903 29.5746 17.5853 29.5746ZM27.1706 29.5746C26.9336 29.5746 26.7019 29.5043 26.5049 29.3726C26.3079 29.2409 26.1543 29.0537 26.0636 28.8347C25.9729 28.6157 25.9492 28.3747 25.9954 28.1422C26.0416 27.9097 26.1558 27.6961 26.3233 27.5285C26.4909 27.3609 26.7044 27.2467 26.9368 27.2005C27.1692 27.1542 27.4101 27.178 27.6291 27.2687C27.848 27.3594 28.0351 27.513 28.1668 27.7101C28.2984 27.9072 28.3687 28.139 28.3687 28.376C28.3687 28.6939 28.2425 28.9988 28.0178 29.2236C27.7931 29.4483 27.4883 29.5746 27.1706 29.5746Z" fill="white"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <button class="btn header__btn">
+                                    <span class="btn_icon">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M24.3658 20.8512C25.5416 19.9261 26.3998 18.6576 26.8211 17.222C27.2423 15.7865 27.2057 14.2553 26.7162 12.8416C26.2267 11.4278 25.3088 10.2018 24.09 9.33405C22.8713 8.46631 21.4124 8 19.9164 8C18.4203 8 16.9614 8.46631 15.7427 9.33405C14.524 10.2018 13.606 11.4278 13.1165 12.8416C12.6271 14.2553 12.5904 15.7865 13.0117 17.222C13.4329 18.6576 14.2911 19.9261 15.4669 20.8512C13.4522 21.6584 11.6943 22.9972 10.3805 24.7249C9.06682 26.4525 8.24657 28.5043 8.00723 30.6615C7.98991 30.819 8.00378 30.9784 8.04804 31.1305C8.09231 31.2827 8.1661 31.4246 8.26522 31.5482C8.46539 31.7979 8.75654 31.9578 9.07462 31.9928C9.3927 32.0277 9.71164 31.9349 9.9613 31.7348C10.211 31.5346 10.3709 31.2435 10.4059 30.9254C10.6692 28.581 11.7871 26.4158 13.5459 24.8434C15.3047 23.2711 17.5812 22.4019 19.9404 22.4019C22.2995 22.4019 24.576 23.2711 26.3348 24.8434C28.0936 26.4158 29.2115 28.581 29.4749 30.9254C29.5075 31.2201 29.6481 31.4922 29.8696 31.6894C30.091 31.8865 30.3777 31.9946 30.6742 31.9928H30.8061C31.1205 31.9566 31.4078 31.7976 31.6055 31.5505C31.8032 31.3034 31.8952 30.9882 31.8615 30.6735C31.621 28.5102 30.7963 26.4531 29.4759 24.7228C28.1554 22.9925 26.3889 21.6541 24.3658 20.8512V20.8512ZM19.9164 19.9997C18.9676 19.9997 18.0401 19.7183 17.2512 19.1912C16.4623 18.6641 15.8474 17.9148 15.4843 17.0383C15.1212 16.1617 15.0262 15.1971 15.2113 14.2665C15.3964 13.336 15.8533 12.4812 16.5242 11.8103C17.1951 11.1394 18.0499 10.6825 18.9805 10.4974C19.911 10.3123 20.8756 10.4073 21.7522 10.7704C22.6288 11.1335 23.378 11.7483 23.9051 12.5372C24.4322 13.3261 24.7136 14.2536 24.7136 15.2024C24.7136 16.4747 24.2082 17.6949 23.3085 18.5946C22.4089 19.4943 21.1887 19.9997 19.9164 19.9997Z" fill="white"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+
+                            <div class="header__mobile">
+                                <button class="header__mobile-btn">
+                                    <span class="btn_icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="24" height="2.4" fill="white"/>
+                                            <rect y="10.8" width="24" height="2.4" fill="white"/>
+                                            <rect y="21.6" width="24" height="2.4" fill="white"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+<div class="header__main">
+                <div class="container">
+                    <div class="header__content">
+                        <h1 class="header__title">
+                            Fullfilling dreams with strings attached
+                        </h1>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- HEADER-END -->
+
+    <!-- MAIN-START -->
+    <main class="main">
+        <section class="section lessons">
+            <div class="container">
+                <div class="lessons__bg">
+                    <div class="lessons__content">
+                        <h1 class="lessons__title">
+                            FREE GUITAR LESSONS!
+                        </h1>
+                        <p class="lessons__desc">
+                            Purchase any guitar over $499.99 and recievea <br> one-hour guitar lesson free. 
+                        </p>
+                        <button class="lessons__btn">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section products">
+            <div class="container">
+                <div class="section__title">
+                    <h1>New Products</h1>
+                </div>
+
+                <div class="products__row">
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="./image/Rectangle1.png" alt="produc_img1">
+                        </div>
+
+                        <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                <p class="product__price">$2,995</p>
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                <span class="product__attribute"> <strong>0</strong> colors available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="./image/Rectangle2.png" alt="produc_img1">
+                        </div>
+
+                        <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                <p class="product__price">$2,995</p>
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                <span class="product__attribute"> <strong>0</strong> colors available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="./image/Rectangle3.png" alt="produc_img1">
+                        </div>
+
+
+                     <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                <p class="product__price">$2,995</p>
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                <span class="product__attribute"> <strong>0</strong> colors available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section products active1">
+            <div class="container">
+                <div class="section__title">
+                    <h1>Popular Finds</h1>
+                </div>
+
+                <div class="products__row">
+                    <div class="product__card">
+                        <div class="product__img active2">
+                            <img src="./image/outs.png" alt="produc_img1">
+                        </div>
+
+                        <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                <p class="product__price">$2,995</p>
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                <span class="product__attribute"> <strong>0</strong> colors available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <div class="product__img active2">
+                            <img src="./image/outs2.png" alt="produc_img1">
+                        </div>
+
+                        <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                <p class="product__price">$2,995</p>
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                <span class="product__attribute"> <strong>0</strong> colors available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <div class="product__img active2">
+                            <img src="./image/telefon.png" alt="produc_img1">
+                        </div>
+
+
+                     <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                <p class="product__price">$2,995</p>
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                <span class="product__attribute"> <strong>0</strong> colors available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section products ">
+            <div class="container">
+                <div class="section__title">
+                    <h1>Gear Heads</h1>
+                </div>
+
+                <div class="products__row">
+                    <div class="product__card active">
+                        <div class="product__img ">
+                            <img src="./image/unsplash1.png" alt="produc_img1">
+                        </div>
+
+                        <div class="product__content active1">
+                            <div class="product__content-head ">
+                                <p class="product__name">Brand Name</p>
+                                
+                            </div>
+                            <div class="product__content-body ">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer ">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product__card active">
+                        <div class="product__img ">
+                            <img src="./image/unsplash2.png" alt="produc_img1">
+                        </div>
+
+                        <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="./image/unsplash3.png" alt="produc_img1">
+                        </div>
+
+
+                     <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                               
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__card">
+                        <div class="product__img">
+                            <img src="./image/unsplash4.png" alt="produc_img1">
+                        </div>
+
+
+                     <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                               
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__card actives">
+                        <div class="product__img">
+                            <img src="./image/unsplash5.png" alt="produc_img1">
+                        </div>
+
+
+                     <div class="product__content">
+                            <div class="product__content-head">
+                                <p class="product__name">Brand Name</p>
+                                
+                            </div>
+                            <div class="product__content-body">
+                                <p class="product__desc">Product description here</p>
+                            </div>
+                            <div class="product__content-footer">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- MAIN-END -->
+    
+    <!-- FOOTER-START -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-left">
+                    <div class="footer-left-left">
+                        <div class="left-border"></div>
+                        <h2>My Account</h2>
+                        <h3>Overview</h3>
+                        <h3>Order History</h3>
+                        <h3>Wishlist</h3>
+                        <h3>Account information</h3>
+                    </div>
+
+                    <div class="footer-left-right">
+                         <div class="left-border"></div>
+                         <h2>Store</h2>
+                         <h3>Securitiy Notice</h3>
+                         <h3>Location & Hours</h3>
+                         <h3>Rentals</h3>
+                         <h3>Privacy Notice</h3>
+                    </div>
+                   
+                </div>
+                <div class="footer-right">
+                    <a href="#"><img src="./image/Desktop.svg" alt=""></a>
+                    <div class="footer-right-icon">
+                        <img src="./image/Vector4.png" alt="icon">
+                        <img src="./image/Vector.png" alt="">
+                        <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.0137 2.80998C19.262 3.13607 18.4671 3.35164 17.6537 3.44998C18.5118 2.9373 19.1549 2.13076 19.4637 1.17998C18.6572 1.66004 17.7744 1.99827 16.8537 2.17998C16.2382 1.51255 15.4186 1.06827 14.5235 0.916827C13.6283 0.765382 12.7082 0.915334 11.9075 1.34316C11.1067 1.771 10.4706 2.45251 10.0989 3.28081C9.72722 4.10912 9.64096 5.03736 9.85367 5.91997C8.2231 5.8375 6.62811 5.41293 5.17233 4.67384C3.71654 3.93475 2.43252 2.89767 1.40367 1.62998C1.04281 2.26014 0.853191 2.9738 0.853672 3.69998C0.852392 4.37436 1.01789 5.03859 1.33543 5.63354C1.65297 6.22849 2.11269 6.73569 2.67367 7.10998C2.02165 7.09223 1.38356 6.91727 0.813672 6.59998V6.64998C0.818559 7.59487 1.14967 8.50907 1.75099 9.23794C2.35231 9.96681 3.18693 10.4656 4.11367 10.65C3.75693 10.7585 3.38655 10.8158 3.01367 10.82C2.75556 10.817 2.49809 10.7936 2.24367 10.75C2.50758 11.5628 3.01829 12.2731 3.70475 12.7821C4.3912 13.2911 5.21925 13.5735 6.07367 13.59C4.63087 14.7252 2.84956 15.3448 1.01367 15.35C0.679407 15.3511 0.345407 15.331 0.0136719 15.29C1.8881 16.5002 4.07248 17.1427 6.30367 17.14C7.84336 17.156 9.37081 16.865 10.7968 16.2841C12.2228 15.7031 13.5187 14.8439 14.6089 13.7565C15.6991 12.6691 16.5616 11.3754 17.1462 9.95088C17.7308 8.5264 18.0257 6.9997 18.0137 5.45997C18.0137 5.28997 18.0137 5.10997 18.0137 4.92998C18.7984 4.34479 19.4751 3.6274 20.0137 2.80998Z" fill="white"/>
+                        </svg>
+                        <img src="./image/Vector3.png" alt="icon">
+                         
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <h2>&copy; 2022 Music Store</h2>
+            </div>
+        </div>
+        
+    </footer> 
+
+    <!-- FOOTER-END -->
+  
+    </div>
+</body>
+</html>
